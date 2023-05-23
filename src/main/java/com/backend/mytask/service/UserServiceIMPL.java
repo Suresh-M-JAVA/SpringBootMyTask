@@ -86,5 +86,16 @@ public class UserServiceIMPL implements UserService{
 		return true;
 	}
 
+	@Override
+	public User getUserByEmail(String email) {
+		// TODO Auto-generated method stub
+		User user = userRepo.getUserByEmail(email);
+		return user;
+	}
+
+	
+
+	
+
 	
 }
